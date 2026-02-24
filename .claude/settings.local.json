@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:cortico.health)",
+      "WebFetch(domain:medcentrehealth.com)",
+      "WebFetch(domain:www.markhammedicalclinic.com)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(tail:*)"
+    ]
+  }
+}

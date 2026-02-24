@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent Tailwind preflight from breaking Mapbox GL controls */
+.mapboxgl-map img,
+.mapboxgl-ctrl img {
+  max-width: none;
+}
